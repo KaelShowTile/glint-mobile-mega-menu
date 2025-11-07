@@ -1,0 +1,73 @@
+#glint-menu-container {
+    margin-top: 30px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 15px;
+    max-width: 800px;
+}
+
+.menu-tree {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.menu-item-header {
+    display: flex;
+    align-items: center;
+}
+
+.drag-handle {
+    cursor: move;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background: #e9ecef;
+    border-radius: 3px;
+}
+
+.menu-item-content {
+    flex-grow: 1;
+    min-height: 20px;
+}
+
+.menu-actions {
+    margin-left: 15px;
+}
+
+.delete-item {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.delete-item:hover {
+    text-decoration: underline;
+}
+
+.submenu {
+    list-style: none;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#glint-add-menu-form .button {
+    margin-top: 10px;
+}
+
+.ui-sortable-placeholder {
+    background: #e9f7fe;
+    border: 1px dashed #1e8cbe;
+    visibility: visible !important;
+}
