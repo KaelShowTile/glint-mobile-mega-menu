@@ -123,7 +123,7 @@ class Glint_Mobile_Menu_Frontend {
                 <span>← Back</span>
             </div>
             <div class="submenu-header">
-                <h3><?= wp_strip_all_tags($current_item->content) ?></h3>
+                <h3><?= $current_item->content ?></h3>
             </div>
             <ul class="menu-items">
                 <?php foreach ($children as $child): ?>
